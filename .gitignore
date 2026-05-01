@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.log
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+
+# Electron / package output
+out/
+.webpack/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build output
+*.exe
+*.app
+*.dmg
+*.deb
+*.rpm
+apps/backend/build/
+apps/backend/dist/
+apps/frontend/dist/
+apps/frontend/release/
+
+# Test
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Misc
+*.mid
+*.midi
+*.bak
+*.tmp
+.env
+.env.local
